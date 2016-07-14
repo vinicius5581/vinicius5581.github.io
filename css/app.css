@@ -19,4 +19,25 @@ h1 {
   color: white;
   text-shadow: 0.25vw 0.25vw rgba(255, 255, 255, 0.3); }
 
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: black;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 3vw;
+  padding-right: 1vw;
+  box-sizing: border-box; }
+  footer a {
+    font-size: 1.8vw;
+    color: white;
+    text-decoration: none;
+    cursor: pointer; }
+    footer a:hover {
+      padding-right: 0vw;
+      font-size: 2vw;
+      color: rgba(255, 255, 255, 0.8); }
+
 /*# sourceMappingURL=app.css.map */
