@@ -22,29 +22,34 @@ h1{
 	color: white;
 	color: rgba(255,255,255,1);
 	text-shadow: .25vw .25vw rgba(255,255,255,.3);
+	&:hover{
+		color: rgba(255,255,255,.5);
+		cursor: pointer;
+	}
 }
 
 
 footer{
 	position: absolute;
-	width: 100%;
-	bottom: 0;
+	width: 20vw;
+	height: 100vh;
 	background: rgba(0,0,0,1);
 	display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	height: 3vw;
 	padding-right: 1vw;
 	box-sizing: border-box;
+	right: 0;
 	a {
-		font-size: 1.8vw;
+		margin-left: 3vw;
+		font-size: 3vw;
 		color: rgba(255,255,255,1);
 		text-decoration: none;
+		display: block;
+		text-align: center;
 		cursor: pointer;
 		&:hover{
-			padding-right: 0vw;
-			font-size: 2vw;
-			color: rgba(255,255,255,.8);
+			color: rgba(255,255,255,.67);
 		}
 	}
 }
