@@ -1,0 +1,1 @@
+console.log("Github sites are cool with JS");
