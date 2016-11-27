@@ -1,3 +1,6 @@
+*{
+	box-sizing: border-box;
+}
 #content {
 	display: flex;
 	flex-direction: column;
@@ -13,6 +16,7 @@
 }
 #content > main {
 	flex-grow: 1;
+	padding: 1vw;
 }
 #content > footer {
 	height: 5vw;

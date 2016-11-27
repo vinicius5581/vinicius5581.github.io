@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: box-border; }
 
+* {
+  box-sizing: border-box; }
+
 #content {
   display: flex;
   flex-direction: column;
@@ -20,7 +23,8 @@
   align-items: center; }
 
 #content > main {
-  flex-grow: 1; }
+  flex-grow: 1;
+  padding: 1vw; }
 
 #content > footer {
   height: 5vw;
