@@ -10,18 +10,11 @@ var emailSender = function (e) {
 
   if (emailValidation.test(emailInputValue)) {
 
+    $(submitButton).removeClass('error');
+    $(errorMsg).removeClass('error');
 
     ga( 'send', 'event', 'Contact Form', 'submit' );
 
-    $(submitButton).removeClass('error');
-    $(errorMsg).removeClass('error');
-    window.datacoral('trackUnstructEvent', {
-      name: 'submitted_form',
-      data: {
-        'email': emailInputValue,
-        'nodeId': formId,
-      }
-    });
     emailInputValue = '';
     modal.style.display = "flex";
     setTimeout(function(){
@@ -44,8 +37,5 @@ var emailSender = function (e) {
 }
 
 $("#emailFormTop .emailSubmit").click(function(e){
-  emailSender(e);
-});
-$("#emailFormBottom .emailSubmit").click(function(e){
   emailSender(e);
 });
