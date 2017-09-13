@@ -8,7 +8,7 @@ I am a San Francisco based frontend engineer fiercely passionate about the user 
 ---
 
 ### datacoral inc. - San Francisco, CA-February 2017 to Present
-####Sr. Front End Developer
+#### Sr. Front End Developer
 
 ###### About the company:
 datacoral is an Amazon native, serverless data platform that runs securely in your own amazon account.  
