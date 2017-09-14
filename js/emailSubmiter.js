@@ -19,12 +19,13 @@ var emailSender = function (e) {
   var emailValidation = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
   if (nameInput.length && emailValidation.test(emailInputValue) && messageInput.length) {
+    var dateTime = new Date($.now());
     $(submitButton).removeClass('error');
     $(errorMsg).removeClass('error');
     ga( 'send', 'event', {
         'eventCategory': 'Contact form',
         'eventAction': 'Submit',
-        'eventLabel': 'name: ' + nameInput + ' email: ' + emailInputValue + ' msg: ' + messageInput
+        'eventLabel': ':|-|: name: ' + nameInput + ' :|-|: email: ' + emailInputValue + ' :|-|: msg: ' + messageInput + ' :|-|: date & time: ' +  dateTime
       }
     );
     modal.style.display = "flex";
