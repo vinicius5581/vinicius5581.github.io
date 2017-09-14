@@ -1,25 +1,42 @@
 var emailSender = function (e) {
   e.preventDefault();
+
+  // console.log($(e.target.parentNode.parentNode).attr('id'));
+  // console.log(e.target.parentNode.getElementsByClassName('emailInput')[0].value);
+  // console.log(e.target.parentNode.getElementsByClassName('nameInput')[0].value);
+  // console.log(e.target.parentNode.getElementsByClassName('messageField')[0].value);
+
+
   var formId = $(e.target.parentNode.parentNode).attr('id');
-  var emailInput = e.target.parentNode.getElementsByClassName('emailInput');
+  var nameInput = e.target.parentNode.getElementsByClassName('nameInput')[0].value;
   var emailInputValue = e.target.parentNode.getElementsByClassName('emailInput')[0].value;
+  var messageInput = e.target.parentNode.getElementsByClassName('messageInput')[0].value;
+
+
+
   var submitButton = e.target;
   var errorMsg = e.target.parentNode.parentNode.getElementsByClassName('formErrorMsg');
   var emailValidation = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-
-  if (emailValidation.test(emailInputValue)) {
-
+  if (nameInput.length && emailValidation.test(emailInputValue) && messageInput.length) {
     $(submitButton).removeClass('error');
     $(errorMsg).removeClass('error');
-
-    ga( 'send', 'event', 'Contact Form', 'submit' );
-
-    emailInputValue = '';
+    ga( 'send', 'event', {
+        'eventCategory': 'Contact form',
+        'eventAction': 'Submit',
+        'eventLabel': 'name: ' + nameInput + ' email: ' + emailInputValue + ' msg: ' + messageInput
+      }
+    );
     modal.style.display = "flex";
+
     setTimeout(function(){
       modal.style.display = "none";
-    }, 2000);
+    }, 5000);
+
+    $('#contact-form .nameInput').val("");
+    $('#contact-form .messageInput').val("");
+    $('#contact-form .emailInput').val("");
+
   }	else {
     $(submitButton).addClass('error');
     $(errorMsg).addClass('error');
@@ -36,6 +53,6 @@ var emailSender = function (e) {
   }
 }
 
-$("#emailFormTop .emailSubmit").click(function(e){
+$(".emailSubmit").click(function(e){
   emailSender(e);
 });
