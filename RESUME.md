@@ -1,5 +1,5 @@
 # Vinícius Santana
-### Senior Front End Engineer
+### Front End Engineer
 
 I am a San Francisco based frontend engineer fiercely passionate about the user experience and interaction of products. I am driven by the unrelenting pursuit of quality and satisfaction. I am authorized to work in the US for any employer.
 
