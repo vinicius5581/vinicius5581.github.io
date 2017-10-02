@@ -8,7 +8,7 @@ I am a San Francisco based frontend engineer fiercely passionate about the user 
 ---
 
 ### datacoral inc. - San Francisco, CA-February 2017 to Present
-#### Sr. Front End Developer
+#### Front End Developer
 
 ###### About the company:
 datacoral is an Amazon native, serverless data platform that runs securely in your own amazon account.  
@@ -30,7 +30,7 @@ datacoral is an Amazon native, serverless data platform that runs securely in yo
 
 
 ### Advisor Software Inc. - Walnut Creek, CA-February 2015 to February 2017
-#### Sr. Lead Front End Developer
+#### Front End Developer
 
 ###### About the company:
 Advisor Software's mission is to advance the science of wealth planning so financial advisors can focus on the art of advice delivery.
