@@ -2,3 +2,5 @@
 .sass-cache\*
 
 \css\app.css.map
+.DS_Store
+node_modules/
