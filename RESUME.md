@@ -7,7 +7,10 @@ I am a San Francisco based frontend engineer fiercely passionate about the user 
 ## WORK EXPERIENCE:
 ---
 
-### datacoral inc. - San Francisco, CA-February 2017 to Present
+### inter | ana - Redwood City, CA-December 2017 to Present
+#### Front End Developer
+
+### datacoral inc. - San Francisco, CA-February 2017 to October 2017
 #### Front End Developer
 
 ###### About the company:
