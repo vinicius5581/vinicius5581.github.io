@@ -239,10 +239,10 @@ Computer Science bachelor (3.5 of 5 years).
 ## LINKS:
 ---
 
-http://codepen.io/vinicius5581/
-http://stackoverflow.com/users/736086/vinicius-santana
-https://bitbucket.org/vinicius5581/
-https://github.com/vinicius5581
+- http://codepen.io/vinicius5581/
+- http://stackoverflow.com/users/736086/vinicius-santana
+- https://bitbucket.org/vinicius5581/
+- https://github.com/vinicius5581
 
 
 ## CERTIFICATIONS/LICENSES:
