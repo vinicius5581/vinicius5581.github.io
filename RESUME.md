@@ -1,17 +1,33 @@
 # Vinícius Santana
-### Front End Engineer
+### Software Engineer - Frontend
 
-I am a San Francisco based frontend engineer fiercely passionate about the user experience and interaction of products. I am driven by the unrelenting pursuit of quality and satisfaction. I am authorized to work in the US for any employer.
+I am a San Francisco based software engineer focused on frontend and fiercely passionate about the user experience and interaction of products. I am driven by the unrelenting pursuit of quality and satisfaction.
 
 
 ## WORK EXPERIENCE:
 ---
 
-### inter | ana - Redwood City, CA-December 2017 to Present
-#### Front End Developer
+### inter | ana - Redwood City, CA-December 2017 to August 2018
+#### Frontend Engineer
+
+###### About the company:
+Interana is a platform that deliveries fast data analytics.
+I've worked directly with the product, developing new features and fixing bugs.
+
+###### Responsibilities:
+• Webapp
+• Slack bot
+
+###### Skills & Tools:
+• React
+• Jest
+•D3
+• Custom state management 
+• Agile / jira
+
 
 ### datacoral inc. - San Francisco, CA-February 2017 to October 2017
-#### Front End Developer
+#### Frontend Developer
 
 ###### About the company:
 datacoral is an Amazon native, serverless data platform that runs securely in your own amazon account.  
@@ -33,7 +49,7 @@ datacoral is an Amazon native, serverless data platform that runs securely in yo
 
 
 ### Advisor Software Inc. - Walnut Creek, CA-February 2015 to February 2017
-#### Front End Developer
+#### Frontend Developer
 
 ###### About the company:
 Advisor Software's mission is to advance the science of wealth planning so financial advisors can focus on the art of advice delivery.
