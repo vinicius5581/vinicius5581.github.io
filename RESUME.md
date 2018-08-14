@@ -15,15 +15,15 @@ Interana is a platform that deliveries fast data analytics.
 I've worked directly with the product, developing new features and fixing bugs.
 
 ###### Responsibilities:
-• Webapp
-• Slack bot
+- Webapp
+- Slack bot
 
 ###### Skills & Tools:
-• React
-• Jest
-•D3
-• Custom state management 
-• Agile / jira
+- React
+- Jest
+- D3
+- Custom state management 
+- Agile / jira
 
 
 ### datacoral inc. - San Francisco, CA-February 2017 to October 2017
