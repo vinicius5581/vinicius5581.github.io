@@ -7,7 +7,24 @@ I am a San Francisco based software engineer focused on frontend and fiercely pa
 ## WORK EXPERIENCE:
 ---
 
-### inter | ana - Redwood City, CA-December 2017 to August 2018
+### Wells Fargo - San Francisco, CA - September 2018 to Present
+#### Frontend Engineer
+
+###### About the company:
+
+Wells Fargo & Company is an American multinational financial services company headquartered in San Francisco, California, with central offices throughout the United States.It is the world's second-largest bank by market capitalization and the fourth largest bank in the US by total assets. Wells Fargo is ranked #26 on the 2018 Fortune 500 rankings of the largest US corporations by total revenue.
+
+I work on the development of internal tools.
+
+###### Responsibilities:
+- Webapp
+
+###### Skills & Tools:
+- React
+- Redux
+- Agile / jira
+
+### inter | ana - Redwood City, CA - December 2017 to August 2018
 #### Frontend Engineer
 
 ###### About the company:
