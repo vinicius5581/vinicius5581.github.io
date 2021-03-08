@@ -6,8 +6,11 @@ I am a San Francisco based software engineer focused on frontend and fiercely pa
 
 ## WORK EXPERIENCE:
 ---
+### LinkedIn - San Francisco, CA - August 2019 to Present
+#### Frontend Engineer
 
-### Wells Fargo - San Francisco, CA - September 2018 to Present
+
+### Wells Fargo - San Francisco, CA - September 2018 to July 2019
 #### Frontend Engineer
 
 ###### About the company:
